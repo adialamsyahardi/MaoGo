@@ -26,8 +26,8 @@ func init() {
 					}
 				}(),
 			}, &typings.MetadataSticker{
-				Author:    "github.com/fckvania",
-				Pack:      "Mao",
+				Author:    "IMMAlFaruqBot",
+				Pack:      "AlFaruqSticker",
 				KeepScale: true,
 				Removebg:  "false",
 				Circle: func() bool {
