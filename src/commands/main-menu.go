@@ -28,7 +28,7 @@ func (t tagSlice) Swap(i int, j int) {
 
 func menu(client *libs.NewClientImpl, m *libs.IMessage) {
 	var str string
-	str += fmt.Sprintf("Hello %s, Berikut List Command Yang Tersedia\n\n", m.PushName)
+	str += fmt.Sprintf("IMM Al - Faruq Robot, Biip Boop..\n\n\ Hello %s, Berikut List Command Yang Tersedia\n\n", m.PushName)
 	var tags map[string][]item
 	for _, list := range libs.GetList() {
 		if tags == nil {
