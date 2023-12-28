@@ -11,7 +11,7 @@ func init() {
 		Tags:     "main",
 		IsPrefix: true,
 		Exec: func(client *libs.NewClientImpl, m *libs.IMessage) {
-			m.Reply("https://github.com/fckvania/MaoGo\n\n_Free Not For Sell_")
+			m.Reply("https://immalfaruq.my.id\n\n_Bidang Media & Komunikasi_")
 		},
 	})
 }
